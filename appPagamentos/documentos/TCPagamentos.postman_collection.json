@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "e5938bf2-c277-4fde-89c9-120e35f47ceb",
+		"name": "TCPagamentos",
+		"description": "Projeto criado para atender a demanda de uma lanchonete através de um sistema de autoatendimento.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33097875",
+		"_collection_link": "https://winter-desert-869279.postman.co/workspace/My-Workspace~bf09e259-9dfb-40ec-823b-a85d2a12f07a/collection/33097875-e5938bf2-c277-4fde-89c9-120e35f47ceb?action=share&source=collection_link&creator=33097875"
+	},
+	"item": [
+		{
+			"name": "Criar pagamentos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"pedido_id\": \"2\",\r\n        \"status\": \"PAGO\",\r\n        \"valor\": \"10.48\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8001/pagamentos/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"pagamentos",
+						"create"
+					]
+				},
+				"description": "API para criar novos produtos. Necessário informar os 3 campos abaixo:\n\n- pedido_id\n    \n- status\n    \n- valor"
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar pagamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8001/pagamentos/",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"pagamentos",
+						""
+					]
+				},
+				"description": "API para consultar pagamentos dos pedidos, não é necessário informar nada no body."
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar pagamentos",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"pedido_id\": \"1\",\r\n        \"status\": \"PENDENTE\",\r\n        \"valor\": \"10.47\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8001/pagamentos/update/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"pagamentos",
+						"update",
+						"1"
+					]
+				},
+				"description": "API para criar novos produtos. Necessário informar os 3 campos abaixo:\n\n- pedido_id\n    \n- status\n    \n- valor"
+			},
+			"response": []
+		},
+		{
+			"name": "Apagar pagamentos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"pedido_id\": \"1\",\r\n        \"status\": \"PENDENTE\",\r\n        \"valor\": \"10.47\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8001/pagamentos/delete/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"pagamentos",
+						"delete",
+						"1"
+					]
+				},
+				"description": "API para criar novos produtos. Necessário informar os 3 campos abaixo:\n\n- pedido_id\n    \n- status\n    \n- valor"
+			},
+			"response": []
+		}
+	]
+}
