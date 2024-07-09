@@ -29,9 +29,9 @@ Abaixo, fluxos principais com processo e endpoint desse microsserviço. Para mai
 
 2 - Consultar pagamentos: http://localhost:8001/pagamentos/
 
-3 - Atualizar pagamento: localhost:8001/pagamentos/update/{id do pagamento}
+3 - Atualizar pagamento: http://localhost:8001/pagamentos/update/{id do pagamento}
 
-4 - Deletar pagamento: localhost:8001/pagamentos/delete/{id do pagamento}
+4 - Deletar pagamento: http://localhost:8001/pagamentos/delete/{id do pagamento}
 
 # Collection
 Disponibilizamos uma collection do postman para ajudar na utilização, contendo todas as APIs deste microserviço e com os campos necessários para preenchimento. 
