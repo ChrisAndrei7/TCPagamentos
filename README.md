@@ -1,6 +1,7 @@
 <h1 align="center"> TCFoodSystem - Sistema de pedidos para lanches </h1>
 Bem-vindo ao Sistema de Pedidos para Lanchonete! Este projeto está em desenvolvimento como atividade do Tech Challenge para a FIAP, curso Software Architecture.	
-Neste repositório, temos o microsserviço de pagamentos.
+<br/>
+<b>Neste repositório, temos o microsserviço de pagamentos.</b>
 <br/>
 :construction: Projeto em construção :construction:
 <br/>
