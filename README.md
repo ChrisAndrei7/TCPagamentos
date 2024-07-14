@@ -42,3 +42,7 @@ Para executar os testes, localizados dentro da pasta "feature", deve ser process
 OBS: BDD está dentro do arquivo "pagamentos.feature"
 
 #### behave appPagamentos/project/features/pagamentos.feature
+
+# Evidência dos testes:
+
+![image](https://github.com/user-attachments/assets/7eaee919-3db2-46e5-afe5-39f96c94f4ba)
